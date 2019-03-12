@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	body{text-align: center;}
+	.imgBox{display: inline-block;position: relative;}
+	.downI{width: 53px;height: 72px; background:url('image/test1-2.png') center center;display: block;
+           margin-top: -62px;z-index: -1;position: relative;margin-left: auto;margin-right: auto;
+           opacity:0;
+         }
+    .downI:nth-of-type(1){z-index: 10; animation:downAni-1 5s linear infinite;}
+    .downI:nth-of-type(2){z-index: 9;  animation:downAni-2 5s linear infinite;}
+    .downI:nth-of-type(3){z-index: 8;  animation:downAni-3 5s linear infinite;}
+    .downI:nth-of-type(4){z-index: 7;  animation:downAni-4 5s linear infinite;}
+    .downI:nth-of-type(5){z-index: 6;  animation:downAni-5 5s linear infinite;}
+    .downI:nth-of-type(6){z-index: 5;  animation:downAni-6 5s linear infinite;}
+    .downI:nth-of-type(7){z-index: 4;  animation:downAni-7 5s linear infinite;}
+    .downI:nth-of-type(8){z-index: 3;  animation:downAni-8 5s linear infinite;}
+    .downI:nth-of-type(9){z-index: 2;margin-bottom: -34px; animation:downAni-9 5s linear infinite;}
+    .test1-3{display: block;width: 206px;height: 51px;background:url('image/test1-3.png') top center;
+    		margin-left: auto;margin-right: auto;margin-top: -21px;
+    		left:0;right:0;opacity:0;
+			position: relative;
+			margin-bottom: -48px;
+			 /*animation:test1-3Ani 5s linear infinite;*/
+			 /*position: absolute;*/
+			 }
+	.test1-3:nth-of-type(1){z-index: 9; animation:test1-3Ani-1 5s linear infinite; }
+	.test1-3:nth-of-type(2){z-index: 8; animation:test1-3Ani-2 5s linear infinite; }
+	.test1-3:nth-of-type(3){z-index: 7; animation:test1-3Ani-3 5s linear infinite; }
+	.test1-3:nth-of-type(4){z-index: 6; animation:test1-3Ani-4 5s linear infinite; }
+	.test1-3:nth-of-type(5){z-index: 5; animation:test1-3Ani-5 5s linear infinite; }
+	.test1-3:nth-of-type(6){z-index: 4; animation:test1-3Ani-6 5s linear infinite; }
+	@keyframes downAni-1{
+		0%{opacity:0;}
+		10%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes downAni-2{
+		10%{opacity:0;}
+		20%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes downAni-3{
+		20%{opacity:0;}
+		30%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes downAni-4{
+		30%{opacity:0;}
+		40%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes downAni-5{
+		40%{opacity:0;}
+		50%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes downAni-6{
+		50%{opacity:0;}
+		60%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes downAni-7{
+		60%{opacity:0;}
+		70%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes downAni-8{
+		70%{opacity:0;}
+		80%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes downAni-9{
+		80%{opacity:0;}
+		90%{opacity:1;}
+		100%{opacity:1;}
+	}
+
+
+	@keyframes test1-3Ani-1{
+		0%{opacity:0;}
+		15%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes test1-3Ani-2{
+		15%{opacity:0;}
+		30%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes test1-3Ani-3{
+		30%{opacity:0;}
+		45%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes test1-3Ani-4{
+		45%{opacity:0;}
+		60%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes test1-3Ani-5{
+		60%{opacity:0;}
+		75%{opacity:1;}
+		100%{opacity:1;}
+	}
+	@keyframes test1-3Ani-6{
+		75%{opacity:0;}
+		90%{opacity:1;}
+		100%{opacity:1;}
+	}
+</style>
+<body>
+	<div class="imgBox">
+		<i class="downI" style="margin-top: 0;"></i>
+		<i class="downI"></i>
+		<i class="downI"></i>
+		<i class="downI"></i>
+		<i class="downI"></i>
+		<i class="downI"></i>
+		<i class="downI"></i>
+		<i class="downI"></i>
+		<i class="downI"></i>
+		<div>
+			<i class="test1-3"></i>
+			<i class="test1-3"></i>
+			<i class="test1-3"></i>
+			<i class="test1-3"></i>
+			<i class="test1-3"></i>
+			<i class="test1-3"></i>
+			<i class="test1-3"></i>
+		</div>
+		<img src="image/test1.png" alt="">
+	</div>
+</body>
+</html>
