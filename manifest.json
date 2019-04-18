@@ -1,0 +1,26 @@
+{
+  "short_name": "Geekbuying",
+  "name": "Geekbuying Mobile",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [{
+    "src": "https://affiliate.geekbuying.com/media/logo/logo_128.png",
+    "type": "image/png",
+    "sizes": "128x128"
+  }, {
+    "src": "https://affiliate.geekbuying.com/media/logo/logo_152.png",
+    "type": "image/png",
+    "sizes": "152x152"
+  }, {
+    "src": "https://affiliate.geekbuying.com/media/logo/logo_144.png",
+    "type": "image/png",
+    "sizes": "144x144"
+  }, {
+    "src": "https://affiliate.geekbuying.com/media/logo/logo_192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen&utm_campaign=tiger"
+}
