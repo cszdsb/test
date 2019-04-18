@@ -17,6 +17,9 @@
 <div class="theme">
   Hello, world.
 </div>
+<script>
+"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("/test/service-worker.js").then(function(a){console.log("ServiceWorker registration successful with scope: ",a.scope)})["catch"](function(a){console.log("ServiceWorker registration failed: ",a)})});
+</script>
 
 </body>
 </html>
