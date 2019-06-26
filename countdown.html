@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>落班倒计时</title>
+</head>
+<body>
+    <h1 id="qq" style="text-align:center"></h1>
+    <script src="Qcountdown1.1.js"></script>
+    <script>
+        var wq = new QcountDown();
+        wq.init("2019-06-26 18:00:00")
+            wq.update(function(e){
+                document.querySelector('#qq').innerHTML = '距离下班还有：'+e.H+'小时' + e.M+'分钟' +e.S+'秒';
+            })
+            wq.finish(function(e){console.log(1,e);});
+    </script>
+</body>
+</html>
